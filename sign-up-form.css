@@ -5,3 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Norse";
+  src: url('fonts/woffs/Norse-Bold.woff2') format('woff2'),
+       url('fonts/woffs/Norse-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

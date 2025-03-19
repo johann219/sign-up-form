@@ -14,3 +14,162 @@
   font-style: normal;
 }
 
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+aside {
+  background-image: url('image-left.jpg');
+  background-size: cover;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner {
+  background-color: rgba(0,0,0,0.5);
+  color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 10rem;
+}
+
+.banner h1 {
+  font-family: "Norse", sans-serif;
+  font-size: 9rem;
+}
+
+.banner img {
+  height: 9rem;
+  width: auto;
+}
+
+.img-cred {
+  background-color: rgba(0,0,0,0.5);
+  color: #dddddd;
+  text-align: center;
+  width: 60%;
+}
+
+.content-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fefefe;
+  font-size: 1.6rem;
+}
+
+main > div {
+  padding-left: 40px;
+}
+
+form {
+  margin-bottom: 2rem;
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.2rem;
+  border: 1px solid #aaaaaa;
+  border-radius: 6px;
+}
+
+input:invalid {
+  border: 2px solid #c23939;
+}
+
+input:valid {
+  border: 1px solid #297a1f;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #4b75ff;
+  box-shadow: 2px 2px 10px -2px #cacaca;
+}
+
+input:valid:focus {
+  outline: none;
+  border: 2px solid #297a1f;
+}
+
+label {
+  font-family: monospace;
+  font-weight: bold;
+  color: #666666;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.form-wrapper {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px -2px #cacaca;
+  margin: 40px 0;
+}
+
+.text-wrapper,
+.login-wrapper {
+  max-width: 60ch;
+}
+
+.text-wrapper p {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.form-wrapper p {
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  max-width: 50ch;
+}
+
+.form-field {
+  width: 45%;
+  min-width: 15ch;
+}
+
+.emphasize {
+  font-style: italic;
+}
+
+button {
+  background-color: #596d48ee;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #596d48f6;
+}
+
+button:active {
+  background-color: #596D48ff;
+}
+
+.login-wrapper span {
+  color: #596d48ee;
+}
